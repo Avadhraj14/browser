@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-13T12:07:21 IST" name="Suite" finished-at="2022-09-13T12:08:46 IST" duration-ms="84949">
+    <groups>
+    </groups>
+    <test started-at="2022-09-13T12:07:21 IST" name="ChromeTest" finished-at="2022-09-13T12:08:08 IST" duration-ms="46350">
+      <class name="browser.CrossBrowser">
+        <test-method is-config="true" signature="init()[pri:0, instance:browser.CrossBrowser@36fc695d]" started-at="2022-09-13T12:07:21 IST" name="init" finished-at="2022-09-13T12:07:22 IST" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:browser.CrossBrowser@36fc695d]" started-at="2022-09-13T12:07:22 IST" name="beforeTest" finished-at="2022-09-13T12:07:36 IST" duration-ms="13959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="login()[pri:0, instance:browser.CrossBrowser@36fc695d]" started-at="2022-09-13T12:07:36 IST" name="login" finished-at="2022-09-13T12:08:06 IST" duration-ms="30367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:browser.CrossBrowser@36fc695d]" started-at="2022-09-13T12:08:06 IST" name="getResult" finished-at="2022-09-13T12:08:06 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=CrossBrowser.login()[pri:0, instance:browser.CrossBrowser@36fc695d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:browser.CrossBrowser@36fc695d]" started-at="2022-09-13T12:08:06 IST" name="afterTest" finished-at="2022-09-13T12:08:08 IST" duration-ms="1569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- browser.CrossBrowser -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-09-13T12:08:08 IST" name="Excel Data" finished-at="2022-09-13T12:08:08 IST" duration-ms="120">
+      <class name="browser.CrossBrowser">
+        <test-method is-config="true" signature="init()[pri:0, instance:browser.CrossBrowser@1d296da]" started-at="2022-09-13T12:08:08 IST" name="init" finished-at="2022-09-13T12:08:08 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:browser.CrossBrowser@1d296da]" started-at="2022-09-13T12:08:08 IST" name="beforeTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1663051088291" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+in C:\Users\RJ\eclipse-workspace\browser\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+in C:\Users\RJ\eclipse-workspace\browser\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="login()[pri:0, instance:browser.CrossBrowser@1d296da]" started-at="2022-09-13T12:08:08 IST" name="login" finished-at="2022-09-13T12:08:08 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+in C:\Users\RJ\eclipse-workspace\browser\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+in C:\Users\RJ\eclipse-workspace\browser\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:browser.CrossBrowser@1d296da]" started-at="2022-09-13T12:08:08 IST" name="getResult" finished-at="2022-09-13T12:08:08 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:browser.CrossBrowser@1d296da]" started-at="2022-09-13T12:08:08 IST" name="afterTest" finished-at="2022-09-13T12:08:08 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- browser.CrossBrowser -->
+    </test> <!-- Excel Data -->
+    <test started-at="2022-09-13T12:07:21 IST" name="EdgeTest" finished-at="2022-09-13T12:08:08 IST" duration-ms="46559">
+      <class name="browser.CrossBrowser">
+        <test-method is-config="true" signature="init()[pri:0, instance:browser.CrossBrowser@4afcd809]" started-at="2022-09-13T12:07:21 IST" name="init" finished-at="2022-09-13T12:07:22 IST" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:browser.CrossBrowser@4afcd809]" started-at="2022-09-13T12:07:22 IST" name="beforeTest" finished-at="2022-09-13T12:07:35 IST" duration-ms="13240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="login()[pri:0, instance:browser.CrossBrowser@4afcd809]" started-at="2022-09-13T12:07:35 IST" name="login" finished-at="2022-09-13T12:08:05 IST" duration-ms="30122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:browser.CrossBrowser@4afcd809]" started-at="2022-09-13T12:08:05 IST" name="getResult" finished-at="2022-09-13T12:08:05 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=CrossBrowser.login()[pri:0, instance:browser.CrossBrowser@4afcd809] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:browser.CrossBrowser@4afcd809]" started-at="2022-09-13T12:08:05 IST" name="afterTest" finished-at="2022-09-13T12:08:08 IST" duration-ms="2726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- browser.CrossBrowser -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2022-09-13T12:07:21 IST" name="FirefoxTest" finished-at="2022-09-13T12:08:46 IST" duration-ms="84949">
+      <class name="browser.CrossBrowser">
+        <test-method is-config="true" signature="init()[pri:0, instance:browser.CrossBrowser@74f0ea28]" started-at="2022-09-13T12:07:21 IST" name="init" finished-at="2022-09-13T12:07:22 IST" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:browser.CrossBrowser@74f0ea28]" started-at="2022-09-13T12:07:22 IST" name="beforeTest" finished-at="2022-09-13T12:08:09 IST" duration-ms="47394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="login()[pri:0, instance:browser.CrossBrowser@74f0ea28]" started-at="2022-09-13T12:08:09 IST" name="login" finished-at="2022-09-13T12:08:44 IST" duration-ms="35073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:browser.CrossBrowser@74f0ea28]" started-at="2022-09-13T12:08:44 IST" name="getResult" finished-at="2022-09-13T12:08:44 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=CrossBrowser.login()[pri:0, instance:browser.CrossBrowser@74f0ea28] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:browser.CrossBrowser@74f0ea28]" started-at="2022-09-13T12:08:44 IST" name="afterTest" finished-at="2022-09-13T12:08:46 IST" duration-ms="2021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- browser.CrossBrowser -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
